@@ -1,6 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void main() {
-  printf("hello world");
+  int b = 5;
+  int a;
+
+  a = 10;
+
   printf("hello world\n");
+  printf("%d\n", a);
+  printf("%d", b);
+
 }
