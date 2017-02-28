@@ -3,10 +3,12 @@
 
 void main() {
   int b = 5;
+  int a;
 
-  printf("hello world");
+  a = 10;
+
   printf("hello world\n");
-
+  printf("%d\n", a);
   printf("%d", b);
-  return 0;
+
 }
